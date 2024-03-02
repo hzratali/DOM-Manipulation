@@ -1,0 +1,55 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    text-align: left;
+    width: 400px;
+    margin: 2vh 20vb;
+    padding: 15vh 50vb;
+}
+
+.counter {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    margin-bottom: 10px;
+}
+
+.div2 p {
+    font-weight: 100;
+}
+
+.div2 hr {
+    width: 165px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    margin: 20px 15px 0px 0px;
+    padding: 8px 16px;
+    width: 110px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+#clearButton {
+    background-color: black;
+    color: white;
+}
+
+.error {
+    color: red;
+    display: none;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Counter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1"><h1>Counter using HTML</h1></div>
+      <div class="div2">
+        <p>Your Current Count is : <span id="counter">0</span></p>
+        <hr />
+      </div>
+      <div class="error" id="errorMessage">Error : Cannot go below 0</div>
+      <div class="buttons">
+        <button onclick="increment()">Increment</button>
+        <button onclick="decrement()">Decrement</button>
+        <button onclick="clearCounter()" id="clearButton">Clear</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
